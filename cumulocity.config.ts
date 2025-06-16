@@ -1,5 +1,5 @@
 import type { ConfigurationOptions } from '@c8y/devkit';
-import { author, description, version, name } from './package.json';
+import { author, description, version, name, license } from './package.json';
 
 export default {
   runTime: {
@@ -8,6 +8,7 @@ export default {
     version,
     name,
     tabsHorizontal: true,
+    license,
     upgrade: true,
     rightDrawer: true,
     contentSecurityPolicy:
