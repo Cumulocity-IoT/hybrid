@@ -13,7 +13,7 @@ export default {
     rightDrawer: true,
     contentSecurityPolicy:
       "base-uri 'none'; default-src 'self' 'unsafe-inline' http: https: ws: wss:; connect-src 'self' http: https: ws: wss:;  script-src 'self' *.twitter.com *.twimg.com *.aptrinsic.com 'unsafe-inline' 'unsafe-eval' data:; style-src * 'unsafe-inline' blob:; img-src * data:; font-src * data:; frame-src *; worker-src 'self' blob:;",
-    dynamicOptionsUrl: true
+    dynamicOptionsUrl: true,
   },
   buildTime: {
     federation: [
@@ -32,7 +32,7 @@ export default {
       'angular',
       'ngx-bootstrap',
       '@ngx-translate/core',
-      '@ngx-formly/core'
-    ]
-  }
+      '@ngx-formly/core',
+    ],
+  },
 } as const satisfies ConfigurationOptions;
